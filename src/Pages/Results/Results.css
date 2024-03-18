@@ -1,0 +1,123 @@
+.results {
+  position: absolute;
+  background: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, #1e1e1e 50%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.second_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 469px;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter {
+  position: relative;
+}
+
+.status_filter {
+  padding: 10px;
+  position: absolute;
+  margin-top: -50px;
+  top: 0;
+  right: 0;
+}
+
+.status_filter label {
+  margin-right: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Seravek", sans-serif;
+}
+
+.status_filter select {
+  width: 84px;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-family: Nunito, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.status_filter select option {
+  background-color: #1e1e1e;
+  color: #fff;
+  font-family: Nunito, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.card_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.pagination_container {
+  margin-bottom: 10px;
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .results {
+    background: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, #1e1e1e 30%);
+  }
+
+  .card_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .results {
+    background: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, #1e1e1e 30%);
+  }
+
+  .card_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .logo {
+    width: 400px;
+  }
+
+  .card_container {
+    margin-top: 400px;
+  }
+
+  .second_container {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .results {
+    background: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, #1e1e1e 15%);
+  }
+
+  .card_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .logo {
+    width: 340px;
+  }
+
+  .card_container {
+    margin-top: 340px;
+  }
+}

@@ -1,0 +1,24 @@
+.search_input {
+  width: 196px;
+  height: 42px;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  background: transparent;
+  padding-left: 12px;
+  color: #9f9f9f;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Nunito, sans-serif;
+}
+
+.search_input:focus {
+  border: 2px solid #fff;
+  outline: none;
+}
+
+.search_input::placeholder {
+  color: #9f9f9f;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: Nunito, sans-serif;
+}

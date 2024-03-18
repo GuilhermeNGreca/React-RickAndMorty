@@ -1,0 +1,40 @@
+.home {
+  background: linear-gradient(180deg, rgba(30, 30, 30, 0) 0%, #1e1e1e 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.logo {
+  max-width: 502px;
+  position: absolute;
+  left: 50%;
+  top: 38px;
+  transform: translateX(-50%);
+}
+
+.container {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 326px;
+  transform: translateX(-50%);
+}
+
+.search_bar {
+  margin-right: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    top: 280px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    top: 240px;
+  }
+}

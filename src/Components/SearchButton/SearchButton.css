@@ -1,0 +1,22 @@
+.button {
+  width: 84px;
+  height: 42px;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-family: Nunito, sans-serif;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  transition: 0.1s ease-in-out;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #1e1e1e;
+}
+
+.button:active {
+  transform: translateY(2px);
+}

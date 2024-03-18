@@ -1,0 +1,26 @@
+.loading {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+}
+
+.loading img {
+  height: 187px;
+  width: 187px;
+  border: 2px solid #606060;
+  border-radius: 8px;
+}
+
+.loading h2 {
+  font-family: Nunito;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32.74px;
+  color: #fff;
+  margin-top: 25px;
+}
